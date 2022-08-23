@@ -38,7 +38,6 @@ year = 1996.;
 console.log(typeof year);
 
 console.log(typeof null);
-*/
 
 let age = 21;
 age = 31;
@@ -48,4 +47,32 @@ const birthYear = 1991;
 // const job;
 
 var job = 'programmer';
-job = 'teacher'
+job = 'teacher';
+
+lastName = 'Shang';
+console.log(lastName);
+
+*/
+
+// Math operators
+const ageJonas = 2037 - 1991;
+const ageSarah = 2037 - 2018;
+console.log(ageJonas, ageSarah);
+
+console.log(ageJonas = 2, ageJonas / 10, 2 ** 3);
+
+const firstName = 'HaoLong';
+const lastName = 'Shang';
+console.log(firstName + ' ' + lastName);
+
+// Assignment operators
+let x = 10 + 5; // 15
+x += 10; // x = x + 10 = 25
+x *= 4; // x = x * 4 = 100
+x++; // x = x + 1;
+x--; // 100
+x--; // 99
+console.log(x);
+
+// Comparison operators
+console.log(ageJonas > ageSarah);
